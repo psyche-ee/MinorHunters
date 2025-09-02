@@ -1,6 +1,6 @@
 import './App.css';
 import DarkVeil from './components/DarkVeil';
-import Navbar from './components/Navbar';
+import Navbar from './components/NavBar';
 import TeamSection from './components/TeamSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
@@ -15,7 +15,7 @@ function App() {
 
       {/* Main Content */}
       <div className="relative z-10 p-4">
-        <Navbar />
+        <NavBar />
 
         {/* Hero Section */}
         <div id='home' className="mt-14 px-10 py-4 text-center">

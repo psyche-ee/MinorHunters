@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Navbar() {
+export default function NavBar() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("home");
 
