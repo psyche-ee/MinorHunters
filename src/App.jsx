@@ -1,6 +1,6 @@
 import './App.css';
 import DarkVeil from './components/DarkVeil';
-import Navbar from './components/NavBar';
+import NavBar from './components/NavBar';
 import TeamSection from './components/TeamSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
