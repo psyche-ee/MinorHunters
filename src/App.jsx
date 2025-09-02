@@ -26,19 +26,19 @@ function App() {
 
         {/* Buttons */}
         <div className="w-full p-4 flex items-center justify-center gap-6">
-          <button className="rounded-full px-6 py-4 bg-blue-600 text-white hover:bg-blue-700 transition">
-            Get Started
-          </button>
-          <button className="rounded-full px-6 py-4 border border-white text-white hover:bg-white hover:text-black transition">
-            Learn More
-          </button>
+          <a href="#team" className="rounded-full px-6 py-4 bg-blue-600 text-white hover:bg-blue-700 transition">
+            Get started
+          </a>
+          <a href="#contact" className="rounded-full px-6 py-4 border border-white text-white hover:bg-white hover:text-black transition">
+            Contact us
+          </a>
         </div>
 
         {/* Team Section */}
-        <TeamSection />
+        <TeamSection id="team"/>
 
         {/* Contact Section */}
-        <ContactSection />
+        <ContactSection id="contact"/>
 
         {/* Footer */}
         <Footer />

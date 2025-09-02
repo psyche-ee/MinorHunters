@@ -20,7 +20,7 @@ const ContactSection = () => {
             <li className="flex items-center gap-3">
               <Mail className="w-6 h-6" />
               <a
-                href="mailto:minorhunters@gmail.com"
+                href="#"
                 className="hover:underline"
               >
                 minorhunters@gmail.com
@@ -28,12 +28,12 @@ const ContactSection = () => {
             </li>
             <li className="flex items-center gap-3">
               <Phone className="w-6 h-6" />
-              <span>+63 912 345 6789</span>
+              <span>+63 930 5330 367</span>
             </li>
             <li className="flex items-center gap-3">
               <Github className="w-6 h-6" />
               <a
-                href="https://github.com/minorhunters"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
